@@ -1,5 +1,6 @@
 package messenger;
 
+import java.util.List;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
@@ -12,6 +13,6 @@ public interface MessengerItf {
   void saveMessage(Message msg, String receiver);
 
   @WebMethod
-  Message[] getMessages(String receiver);
+  List<Message> getMessages(String receiver);
   
 }
