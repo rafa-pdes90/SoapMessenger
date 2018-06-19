@@ -3,7 +3,8 @@ import org.apache.commons.cli.*;
 
 import messenger.MessengerImpl;
 
-public class Server {
+public class ServiceServer {
+
   public static void main(String[] args) throws Exception {
     // create the Options
     Options options = new Options();
@@ -48,4 +49,5 @@ public class Server {
     System.in.read();
     System.exit(0);
   }
+  
 }
