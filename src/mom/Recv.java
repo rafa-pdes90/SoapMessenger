@@ -33,5 +33,7 @@ public class Recv {
         channel.basicAck(deliveryTag, false); // acknowledge receipt of the message
       }
     } while (response != null);
+
+    System.exit(0);
   }
 }

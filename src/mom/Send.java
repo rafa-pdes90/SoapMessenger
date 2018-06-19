@@ -29,5 +29,7 @@ public class Send {
 
     channel.close();
     connection.close();
+
+    System.exit(0);
   }
 }
